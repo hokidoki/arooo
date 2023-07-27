@@ -1,0 +1,14 @@
+@import '@/styles/global.scss';
+
+.layout {
+  @include fl-col;
+  @include fulfill;
+  align-items: center;
+  padding: 50px;
+}
+
+.title {
+  color: $text-black;
+  font-size: $h1-fontsize;
+  margin-bottom: 50px;
+}

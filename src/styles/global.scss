@@ -1,0 +1,25 @@
+// color
+$white: rgb(173, 173, 173);
+$text-black: #222222;
+$text-blue: #2c3e50;
+
+//
+$h1-fontsize: 3rem;
+$h2-fontsize: 2rem;
+$plain-textsize: 1.5rem;
+// Gap
+
+@mixin fl-col {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin fulfill {
+  width: 100%;
+  height: 100%;
+}
+
+@mixin middle-middle {
+  align-items: center;
+  justify-content: center;
+}

@@ -1,34 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## install
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+```
+$: yarn
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## script
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+test : "jest"를 실행해서, 비즈니스로직을 검사합니다.
+dev : 개발환경에서 실행합니다.
+build : next앱을 구동시킬 파일을 빌드합니다.
+start : "build"명령어로 만들어진 앱을 실행합니다.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## SEO
 
-## Learn More
+1. 타이틀과 메타태그를 페이지마다 동적 혹은 정적으로 생성합니다.
+2. 사이트맵을 생성합니다.
 
-To learn more about Next.js, take a look at the following resources:
+## 엔드포인트 감추기
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+"Proxy"를 사용해서 제출 할 수 있지만, "next-api"를 이용해서 더미 서버를 구현해보았습니다.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 무한스크롤
 
-## Deploy on Vercel
+구현완료
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 후기
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+평소사용하지 않고 학습만 해보았던 라이브러리를 사용하며, 많은 지식을 쌓을 수 있었습니다.

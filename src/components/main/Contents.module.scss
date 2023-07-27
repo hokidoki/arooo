@@ -1,0 +1,45 @@
+@import '@/styles/global.scss';
+
+.lists {
+  @include fl-col;
+  gap: 10px;
+  width: 500px;
+  max-width: calc(100% - 50px);
+}
+
+.list {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 1px 0 2px;
+}
+
+.link {
+  @include fl-col;
+  @include fulfill;
+  @include middle-middle;
+  gap: 20px;
+}
+
+.title {
+  font-size: $h2-fontsize;
+  color: $text-black;
+}
+
+.likes {
+  font-size: $plain-textsize;
+  color: $text-blue;
+}
+
+.content {
+  font-size: $plain-textsize;
+  color: $text-blue;
+}
+
+.detailContent {
+  @include fl-col;
+  align-items: center;
+  gap: 10px;
+  width: 500px;
+  max-width: calc(100% - 50px);
+}
